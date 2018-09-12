@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lab04-COSW-JSONWebToken.iml" filepath="$PROJECT_DIR$/Lab04-COSW-JSONWebToken.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lab04-COSW-JSONWebToken_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lab04-COSW-JSONWebToken_main.iml" group="Lab04-COSW-JSONWebToken" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lab04-COSW-JSONWebToken_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lab04-COSW-JSONWebToken_test.iml" group="Lab04-COSW-JSONWebToken" />
+    </modules>
+  </component>
+</project>

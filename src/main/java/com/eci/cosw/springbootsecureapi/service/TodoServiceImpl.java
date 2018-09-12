@@ -24,11 +24,11 @@ public class TodoServiceImpl implements TodoService {
     }
 
     @Override
-    List<Todo> getTodoList(){
+    public List<Todo> getTodoList(){
         return toDos;
     }
     @Override
-    Todo addTodo( Todo todo ){
+    public Todo addTodo(Todo todo){
         return toDos.get( 0 );
     }
 }
