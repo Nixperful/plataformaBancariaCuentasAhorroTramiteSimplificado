@@ -18,17 +18,19 @@ public class TodoServiceImpl implements TodoService {
     }
 
     @PostConstruct
-    private void populateSampleData()
-    {
+    private void populateSampleData(){
+
         toDos.add( new Todo( "Hacer COSW", 1, new Date()));
     }
 
     @Override
     public List<Todo> getTodoList(){
+
         return toDos;
     }
     @Override
     public Todo addTodo(Todo todo){
+
         return toDos.get( 0 );
     }
 }

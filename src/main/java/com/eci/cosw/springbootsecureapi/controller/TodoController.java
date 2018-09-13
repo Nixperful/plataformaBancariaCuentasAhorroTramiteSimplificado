@@ -15,10 +15,6 @@ public class TodoController {
     @Autowired
     private TodoService todoService;
 
-
-
-
-
     @CrossOrigin(origins = "http://localhost:3000")
     @RequestMapping( value = "/todo", method = RequestMethod.POST )
     public void addTodo(@RequestBody Todo todo ) throws ServletException {
