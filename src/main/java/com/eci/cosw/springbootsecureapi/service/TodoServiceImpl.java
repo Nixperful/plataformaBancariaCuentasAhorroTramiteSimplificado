@@ -2,13 +2,14 @@ package com.eci.cosw.springbootsecureapi.service;
 
 import com.eci.cosw.springbootsecureapi.model.Todo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-
+@Service
 public class TodoServiceImpl implements TodoService {
     private List<Todo> toDos = new ArrayList<>();
 
@@ -17,11 +18,13 @@ public class TodoServiceImpl implements TodoService {
     public TodoServiceImpl(){
     }
 
+
+    /*
     @PostConstruct
     private void populateSampleData(){
 
-        toDos.add( new Todo( "Hacer COSW", 1, new Date()));
-    }
+        toDos.add( new T odo( "Hacer COSW", 1, new Date()));
+    }*/
 
     @Override
     public List<Todo> getTodoList(){

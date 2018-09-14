@@ -8,12 +8,12 @@ public class Todo {
 
     private String text;
 
-    private Integer priority;
+    private String priority;
 
     private Date dueDate;
 
 
-    public Todo(String text, Integer priority, Date dueDate) {
+    public Todo(String text, String priority, Date dueDate) {
         this.text = text;
         this.priority = priority;
         this.dueDate = dueDate;
