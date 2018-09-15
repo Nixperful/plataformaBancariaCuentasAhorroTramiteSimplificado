@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.ServletException;
+import java.util.List;
 
 
 @RestController
@@ -17,14 +18,14 @@ public class TodoController {
 
     @CrossOrigin(origins = "http://localhost:3000")
     @RequestMapping( value = "/todos", method = RequestMethod.POST )
-    public void addTodo(@RequestBody Todo todo ) throws ServletException {
-         todoService.addTodo(todo);
+    public Todo addTodo(@RequestBody Todo todo ) throws ServletException {
+         return todoService.addTodo(todo);
     }
 
     @CrossOrigin(origins = "http://localhost:3000")
     @RequestMapping( value = "/todos", method = RequestMethod.GET )
-    public void getTodoList() throws ServletException {
-        todoService.getTodoList();
+    public List<Todo> getTodoList() throws ServletException {
+        return todoService.getTodoList();
     }
 
 

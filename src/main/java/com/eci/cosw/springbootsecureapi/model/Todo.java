@@ -8,12 +8,12 @@ public class Todo {
 
     private String text;
 
-    private String priority;
+    private Integer priority;
 
     private Date dueDate;
 
 
-    public Todo(String text, String priority, Date dueDate) {
+    public Todo(String text, Integer priority, Date dueDate) {
         this.text = text;
         this.priority = priority;
         this.dueDate = dueDate;
@@ -23,7 +23,7 @@ public class Todo {
         return text;
     }
 
-    public String getPriority() {
+    public Integer getPriority() {
         return priority;
     }
 
