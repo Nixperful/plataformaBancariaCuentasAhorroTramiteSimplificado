@@ -24,6 +24,7 @@ public class Todo {
     }
 
     public Integer getPriority() {
+
         return priority;
     }
 
