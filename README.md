@@ -1,6 +1,6 @@
-# Proyecto Comoney AREM
+# Banco Colmoney
 
-## Miembros
+## Desarrolladores
 - Nicolas Osorio Arias
 - Johan Camilo López Girón
 
