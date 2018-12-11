@@ -21,9 +21,9 @@
 <br>Comoney se centra en la rapidez de sus transacciones y demas servicios que se ofrecen y se ofreceran en un futuro, por lo tanto, para usuarios de nuestra aplicacion, la transferencia de dinero entre cuentas sera bastante rapido y sin ningun tipo de cobro, y lo mejor, solo necesitara una conexion a internet para realizar la transferencia sin ningun tipo de barrera a la hora de enviar el dinero.
 
 ## Graficas
-- Arquitectura del proyecto
+### Arquitectura del proyecto
 ![alt text](https://github.com/Camilo1997/Colmoney-Proyect/blob/patch-1/Screenshot%20from%202018-12-10%2023-28-08.png)
-- Canvas
+### Organigrama
 ![alt text](https://github.com/Camilo1997/Colmoney-Proyect/blob/patch-1/Organigrama%20Colmoney.png)
-- Organigrama
+### Canvas
 ![alt text](https://github.com/Camilo1997/Colmoney-Proyect/blob/patch-1/Screenshot%20from%202018-12-10%2023-26-41.png)
